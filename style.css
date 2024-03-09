@@ -1,0 +1,219 @@
+*   {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1728px)  {
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 32px;
+        padding: 32px;
+    }
+    .left-side-8-column     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1076px;
+        width: 816px;
+    }
+    .art    {
+        height: 1076px;
+        width: 816px;
+    }
+        .art .image    {
+            width: 100%;
+            height: 100%;
+            border-radius: 1.5rem;
+        }
+    
+    .login-form     {
+        text-align: start;
+        height: 537px;
+        width: 388px;
+        gap: 48px;
+    }
+    
+    .account-check a:hover  {
+        text-decoration: underline;
+    }
+    
+    #forgot-account a:hover   {
+        text-decoration: underline;
+        color:  #1E4AE9;
+    }
+    
+    .item-Forgot-7  {
+        text-align: end;
+        padding: 20px 0px 8px 0px;
+    }
+    
+    .item-Forgot-7:hover  {
+        color: #1E4AE9;
+        text-decoration: underline;
+    }
+    
+    .item-button-8  {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 0px 16px 0px;
+    }
+    .para-8    {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .para-9 {
+        display: flex;
+        justify-content: center;    
+    }
+    
+    .para-9 .account-check  {
+        padding-top: 50px;
+    }   
+    .label-line     {
+        position: absolute;
+
+    }
+    .footer     {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 382px;
+        height: 250px;
+        padding-top: 100px;
+    
+    }
+    .footer-para    {
+      text-align: center;
+      color: 
+      #959CB6;
+    }
+}
+
+
+@media  (max-width: 390px)  {
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 844px;
+        width: 390px;
+        gap: 27px;
+        padding: 24px 0px 0px 24px;
+        top: -571px;
+        left: 770px;
+}
+
+    .art    {
+        height: 180px;
+        width: 390px;
+        padding: 0px 24px 0px 24px;
+        gap: 10px;
+    }
+
+    .art #image     {
+        width: 342px;   
+        height: 180px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .login-form     {
+        text-align: start;
+        height: 548px;
+        width: 390px;
+        padding: 0px 24px 0px 24px;
+        gap: 24px;
+    }
+     .intro-1 p      {
+        width: 342px;
+        height: 24px;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+    .text-para-2 p  {
+        width: 342px;
+        height: 48px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        color: 
+        #313957;
+    }    
+    .item-label-3 label   {
+        width: 36px;
+        height: 14px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    .item-input-4  input   {
+        width: 342px;
+        height: 42px;
+        top: 22px;
+        border-radius: 8px;
+    }
+    .item-label-5 label     {
+        width: 63px;
+        height: 14px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    .item-input-6 input     {
+        width: 342px;
+        height: 42px;
+        top: 22px;
+        border-radius: 8px;
+    }
+    .item-Forgot-7 a  {
+        width: 115px;
+        height: 14px;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .item-button-8 #btn-8  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 342px;
+        height: 44px;
+    }
+    .item-button-8 .para-8      {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .para-9 .account-check      {
+        width: 342px;
+        height: 26px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+    }
+    .footer     {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 342px;
+        height: 250px;
+        padding-top: 100px;
+    }
+    .footer-para    {
+      text-align: center;
+      color: 
+      #959CB6;
+    }
+}
+
+
